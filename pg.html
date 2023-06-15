@@ -43,6 +43,7 @@
         nav ul li a:hover{
            color: rgb(202, 202, 234);
            font-size: 1.02rem;
+           cursor: pointer;
         }
         .left{
             font-size: 1.5rem;
@@ -108,7 +109,7 @@
             height: 93px;
             width: 1px;
             background-color: white;
-            margin: 0 100px;
+            margin: 0 6vw;
         }
         .image-top{
             width: 23px;
@@ -167,7 +168,59 @@
             font-size: 15px;
             cursor: pointer;
         }
-
+        @media  screen and (max-width: 1400px) {
+            
+            .box{
+                flex-direction: column;
+            }
+            .secondSection .vertical{
+                height: unset;
+            }
+            .vertical-title, .vertical-desc{
+                left: 45px;
+            }
+            .secondSection .box{
+                width: 50vw;
+            }
+            nav{
+                flex-direction: column;
+            }
+            
+            .firstSection{
+                flex-direction: column-reverse;
+            }
+            .leftSection{
+                width: 100% !important;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                 align-items: center; 
+            }
+            .rightSection{
+                width: 721px !important;
+                display: flex;
+                justify-content: center;
+            }
+            .secondSection{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            body{
+                min-width: fit-content;
+            }
+           .rightSection img{
+            width: 45vw;
+            margin-bottom: 73px;
+           }
+           .image-top{
+            top: 115px;
+           }
+           .secondSection{
+            height: 141vh;
+           }
+            
+        }
 
     </style>
 </head>
@@ -180,9 +233,10 @@
                     <li><a href="/">Home</a></li>
                     <li><a href="/">About</a></li>
                     <li><a href="/">Services</a></li>
-                    <li><a href="/">Projects</a></li>
-                    <li><a href="/">Contact Me</a></li>
+                    <li><a href=" https://loggerlog.me/login">Projects</a></li>
+                    <li><a href="mailto:prithwish1552001@gmail.com">Contact Me</a></li>
                    
+                    
                 </ul>
             </div>
             
@@ -191,7 +245,7 @@
     <main>
         <section class="firstSection">
             <div class="leftSection">
-                Hi, My name is <span class="purple">Prithwish</span>
+               <div> Hi, My name is <span class="purple">Prithwish</span></div>
                 
                 <div>and I am a passionate</div>
                 <!-- <div>Web Developer</div> -->
@@ -215,12 +269,12 @@
             <h1>Work Experience</h1>
             <div class="box">
                 <div class="vertical">
-                    <img class="image-top" src="developer.png" alt="">
+                    <img class="image-top" src="pngwing.com (1).png" alt="">
                     <div class="vertical-title">
                         JAVA Developer (2021-2023)
                     </div>
                     <div class="vertical-desc">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio iste nulla ea voluptatibus modi illo est sunt iusto accusamus, eius totam, dignissimos minus deleniti nihil distinctio hic. Unde, est sunt.
+                   Certified JAVA Developer at Hacker Rank, 4 star java Coder Done small projects on JAVA and Well known about Full Stack JAVA Programming.
                     </div>
                 </div>
                 <!-- <div class="vertical">
@@ -229,22 +283,10 @@
                 <div class="vertical">
                     <img class="image-top" src="pngwing.com.png" alt="">
                     <div class="vertical-title">
-                        JAVA Developer (2021-2023)
+                        HTML5 Developer(2021-2023)
                     </div>
                     <div class="vertical-desc">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio iste nulla ea voluptatibus modi illo est sunt iusto accusamus, eius totam, dignissimos minus deleniti nihil distinctio hic. Unde, est sunt.
-                    </div>
-                </div>
-                <!-- <div class="vertical">
-                    Node.js Developer (2022-2023)
-                </div> -->
-                <div class="vertical">
-                    <img class="image-top" src="pngwing.com (1).png" alt="">
-                    <div class="vertical-title">
-                        JAVA Developer (2021-2023)
-                    </div>
-                    <div class="vertical-desc">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio iste nulla ea voluptatibus modi illo est sunt iusto accusamus, eius totam, dignissimos minus deleniti nihil distinctio hic. Unde, est sunt.
+                      Done several small and big projects with HTML5 well known advanced coding.
                     </div>
                 </div>
                 <!-- <div class="vertical">
@@ -253,19 +295,7 @@
                 <div class="vertical">
                     <img class="image-top" src="pngwing.com (2).png" alt="">
                     <div class="vertical-title">
-                        JAVA Developer (2021-2023)
-                    </div>
-                    <div class="vertical-desc">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio iste nulla ea voluptatibus modi illo est sunt iusto accusamus, eius totam, dignissimos minus deleniti nihil distinctio hic. Unde, est sunt.
-                    </div>
-                </div>
-                <!-- <div class="vertical">
-                    Node.js Developer (2022-2023)
-                </div> -->
-                <div class="vertical">
-                    <img class="image-top" src="developer.png" alt="">
-                    <div class="vertical-title">
-                        JAVA Developer (2021-2023)
+                        CSS3 Developer (2021-2023)
                     </div>
                     <div class="vertical-desc">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio iste nulla ea voluptatibus modi illo est sunt iusto accusamus, eius totam, dignissimos minus deleniti nihil distinctio hic. Unde, est sunt.
@@ -277,10 +307,35 @@
                 <div class="vertical">
                     <img class="image-top" src="pngwing.com (3).png" alt="">
                     <div class="vertical-title">
-                        JAVA Developer (2021-2023)
+                       Java Script Developer (2022-2023)
                     </div>
                     <div class="vertical-desc">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio iste nulla ea voluptatibus modi illo est sunt iusto accusamus, eius totam, dignissimos minus deleniti nihil distinctio hic. Unde, est sunt.
+                     Currently Working and Developing my skills with java script aquring new skills and working on differnt projects.
+                    </div>
+                </div>
+                <!-- <div class="vertical">
+                    Node.js Developer (2022-2023)
+                </div> -->
+                <div class="vertical">
+                    <img class="image-top" src="pngwing.com (4).png" alt="">
+                    <div class="vertical-title">
+                       SQL Developer (2022-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        I am a SQL developer using sql in my small projects well known with all the attribute and functions of SQL.Well known about how to handel SQL Server.
+
+                    </div>
+                </div>
+                <!-- <div class="vertical">
+                    Node.js Developer (2022-2023)
+                </div> -->
+                <div class="vertical">
+                    <img class="image-top" src="clipart3515666.png" alt="">
+                    <div class="vertical-title">
+                        C Developer (2021-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        As we know the base coding language is C.Have a Decent knowledge in C programming Done data structure algorithm with C.
                     </div>
                 </div>
                 <!-- <div class="vertical">
